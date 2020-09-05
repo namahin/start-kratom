@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Montserrat;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #F2F1DD;
+}
+
+p {
+    color: #3c373c;
+}
+
+.web-head {
+    background: #F2F1DD;
+}
+
+.brand-img {padding: 30px 0;}
+
+.brand-img img {
+    width: 100%;
+}
+
+.banner {
+    background-image: url(../images/banner.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-contant {
+    padding: 80px 0;
+}
+
+.banner-contant h1 {
+    font-weight: 600;
+    color: #f2f1dd;
+    text-shadow: 0 0 5px gray;
+    font-size: 72px;
+}
+
+.banner-contant p {
+    margin: 0;
+    font-weight: 600;
+    color: #f2f1dd;
+    text-shadow: 0 0 10px #515151;
+    font-size: 40px;
+}
+
+.stateside-sec {
+    background: #F2F1DD;
+    padding: 50px 0;
+}
+
+.stateside-contant {}
+
+.stateside-contant h3 {
+    color: #307a17;
+    margin-bottom: 25px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.stateside-contant p {
+    margin: 0;
+}
+
+.why-sec {
+    padding: 50px 0;
+    background: white;
+}
+
+.why-contant {}
+
+.why-contant h3 {
+    color: #307a17;
+    margin-bottom: 25px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.why-card {}
+
+.why-card img {
+    width: 50px;
+    color: #96BF88;
+    margin: 20px 0;
+}
+
+.why-card p {}
+
+.page-text-1 {
+    background: #F2F1DD;
+    padding: 50px 0;
+}
+
+.page-text-1 p:last-child {
+    margin: 0;
+}
+
+.page-info {
+    background: #2F2F30;
+    color: white;
+    padding: 50px 0;
+    text-align: right;
+}
+
+.page-info p {
+    color: #9c9c9c;
+    text-align: left;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 16px !important;
+}
+
+.page-info img {
+    width: 100%;
+    padding-left: 50px;
+    border-left: 4px solid #494949;
+}
+
+.bkp-sec {
+    background: #819F02;
+    color: white;
+    padding: 60px 0;
+}
+
+.bkp-sec::after {}
+
+.bkp-sec h3 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.bkp-list {}
+
+.bkp-list table {}
+
+.bkp-list table tr {}
+
+.bkp-list table tr th {
+    padding: 0 15px 5px 0;
+}
+
+.bkp-list table tr td {}
+
+.bkp-list-p {}
+
+.bkp-list-p ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bkp-list-p ul li {
+    padding-bottom: 15px;
+}
+
+.bkp-list-p ul li:last-child {
+    padding: 0;
+}
+
+.bkp-list-p ul li i {}
+
+.packaging {
+    padding: 60px 0;
+}
+
+.packaging h3 {
+    color: #307a17;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.packaging p {
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.packaging p b {
+    font-weight: bold;
+}
+
+.capsule {
+    background: white;
+    border-top: 25px solid #3A363A;
+    position: relative;
+}
+
+.left-img {
+    width: 45%;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.left-img img {
+    width: 90%;
+}
+
+.capsule h3 {
+    display: initial;
+    margin: 0;
+    padding: 20px 30px;
+    background: #819F02;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    position: absolute;
+    top: -56px;
+    left: -15px;
+}
+
+.capsule-contant {
+    padding: 50px 0;
+    padding-top: 70px;
+}
+
+.capsule p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+
+footer {
+    background: #295312;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #ededed;
+    font-weight: 300;
+}
+
+footer p b {
+    font-weight: bold;
+    color: white;
+}
+/* sticky */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+      z-index: 1
+  }
+  
